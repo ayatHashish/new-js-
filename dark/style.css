@@ -1,0 +1,43 @@
+
+body{
+  background-color: black;
+  color: white
+}
+
+.them{
+  background-color: white;
+  color: black;
+
+}
+
+.change{
+  background-color: rgb(102, 26, 26);
+  color: white;
+  cursor: pointer;
+}
+
+
+.articles {
+  padding: 5rem 0;
+  width: 90vw;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.post {
+  margin-bottom: 3rem;
+}
+
+.post h2 {
+  color: var(--clr-primary);
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-size: 1.75rem;
+}
+.post-info {
+  margin-bottom: 0.75rem;
+  font-style: italic;
+  color: var(--clr-grey);
+}
+.post-info span {
+  margin-right: 0.5rem;
+}
